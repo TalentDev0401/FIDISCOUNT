@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomDialogViewController" customModule="Fid" customModuleProvider="target">
+            <connections>
+                <outlet property="cityname" destination="bQK-KG-NgD" id="RTe-xU-gZm"/>
+                <outlet property="view" destination="iN0-l3-epB" id="5cj-uj-VyR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iS-1B-qwK">
+                    <rect key="frame" x="150" y="129" width="84" height="31"/>
+                    <color key="backgroundColor" red="0.019607843140000001" green="0.098039215690000001" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="aWD-tb-adV"/>
+                        <constraint firstAttribute="width" constant="84" id="qPt-Jz-QCh"/>
+                    </constraints>
+                    <state key="normal" title="אישור"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="searchCity:" destination="-1" eventType="touchUpInside" id="tGW-iN-o3z"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEw-fj-T63">
+                    <rect key="frame" x="58" y="129" width="84" height="31"/>
+                    <color key="backgroundColor" red="0.019607843140000001" green="0.098039215690000001" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="kWn-6N-pKc"/>
+                        <constraint firstAttribute="width" constant="84" id="p1y-8V-KKf"/>
+                    </constraints>
+                    <state key="normal" title="ביטול"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="closeButton:" destination="-1" eventType="touchUpInside" id="QEL-KN-dzM"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uHP-b8-Dnl">
+                    <rect key="frame" x="16" y="15" width="218" height="34"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="הקלד עיר" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bQK-KG-NgD" customClass="SearchTextField" customModule="SearchTextField">
+                            <rect key="frame" x="0.0" y="0.0" width="218" height="34"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="218" id="R8e-6a-TJX"/>
+                                <constraint firstAttribute="height" constant="34" id="WPj-Ja-Z9L"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="WKB-yO-Wys"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.83921568627450982" green="0.94901960784313721" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="bQK-KG-NgD" firstAttribute="leading" secondItem="uHP-b8-Dnl" secondAttribute="leading" id="3Er-qX-4Fd"/>
+                        <constraint firstItem="bQK-KG-NgD" firstAttribute="centerY" secondItem="uHP-b8-Dnl" secondAttribute="centerY" id="Ba7-Oi-1rZ"/>
+                        <constraint firstAttribute="height" constant="34" id="Ixo-i6-Y6a"/>
+                        <constraint firstAttribute="width" constant="218" id="bc9-AR-5pt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3iS-1B-qwK" firstAttribute="top" secondItem="uHP-b8-Dnl" secondAttribute="bottom" constant="80" id="8R6-nl-AcA"/>
+                <constraint firstItem="uHP-b8-Dnl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="Dbg-Yz-7d8"/>
+                <constraint firstItem="uHP-b8-Dnl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JKX-zI-OzY"/>
+                <constraint firstAttribute="trailing" secondItem="3iS-1B-qwK" secondAttribute="trailing" constant="16" id="Uq3-R1-yhI"/>
+                <constraint firstItem="3iS-1B-qwK" firstAttribute="leading" secondItem="SEw-fj-T63" secondAttribute="trailing" constant="8" symbolic="YES" id="hIZ-lA-anK"/>
+                <constraint firstItem="SEw-fj-T63" firstAttribute="centerY" secondItem="3iS-1B-qwK" secondAttribute="centerY" id="rqW-FD-poo"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="130.43478260869566" y="423.91304347826087"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="bQK-KG-NgD">
+            <size key="intrinsicContentSize" width="51.666666666666664" height="18.666666666666668"/>
+        </designable>
+    </designables>
+</document>
