@@ -13,6 +13,8 @@ import ProgressHUD
 
 class BenefitVC: UIViewController {
     
+    @IBOutlet weak var cardImg: UIImageView!
+    @IBOutlet weak var cardNameLbl: UILabel!
     @IBOutlet weak var view_numberLbl: UILabel!
     @IBOutlet weak var likes_numberLbl: UILabel!
     @IBOutlet weak var likesImg: UIImageView!
@@ -36,7 +38,7 @@ class BenefitVC: UIViewController {
             tagging.accessibilityIdentifier = "Tagging"
             tagging.textView.accessibilityIdentifier = "TaggingTextView"
             tagging.borderWidth = 1.0
-//            tagging.cornerRadius = 5
+            //tagging.cornerRadius = 5
             tagging.textInset = UIEdgeInsets(top: 5, left: 0, bottom: 0, right: 0)
             tagging.backgroundColor = UIColor.lightGray.withAlphaComponent(0.1)
             tagging.defaultAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18)]
@@ -198,7 +200,9 @@ class BenefitVC: UIViewController {
         } else {
             self.likesImg.image = UIImage(named: "icon_benefit_unlikes")
         }
-        
+        self.cardNameLbl.text = self.benefit.card_type
+        self.cardImg.sd_setImage(with: URL(string: self.benefit.card_image)!)
+
         switch traitCollection.userInterfaceStyle {
             case .light, .unspecified:
                 // light mode detected
