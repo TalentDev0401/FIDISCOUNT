@@ -249,32 +249,32 @@ PODS:
     - FBSDKShareKit/Share (= 5.15.1)
   - FBSDKShareKit/Share (5.15.1):
     - FBSDKCoreKit (~> 5.0)
-  - Firebase/Auth (7.11.0):
+  - Firebase/Auth (8.1.0):
     - Firebase/CoreOnly
-    - FirebaseAuth (~> 7.11.0)
-  - Firebase/CoreOnly (7.11.0):
-    - FirebaseCore (= 7.11.0)
-  - Firebase/Firestore (7.11.0):
+    - FirebaseAuth (~> 8.1.0)
+  - Firebase/CoreOnly (8.1.0):
+    - FirebaseCore (= 8.1.0)
+  - Firebase/Firestore (8.1.0):
     - Firebase/CoreOnly
-    - FirebaseFirestore (~> 7.11.0)
-  - Firebase/Storage (7.11.0):
+    - FirebaseFirestore (~> 8.1.0)
+  - Firebase/Storage (8.1.0):
     - Firebase/CoreOnly
-    - FirebaseStorage (~> 7.11.0)
-  - FirebaseAuth (7.11.0):
-    - FirebaseCore (~> 7.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
-    - GoogleUtilities/Environment (~> 7.0)
-    - GTMSessionFetcher/Core (~> 1.4)
-  - FirebaseCore (7.11.0):
-    - FirebaseCoreDiagnostics (~> 7.4)
-    - GoogleUtilities/Environment (~> 7.0)
-    - GoogleUtilities/Logger (~> 7.0)
-  - FirebaseCoreDiagnostics (7.11.0):
-    - GoogleDataTransport (~> 8.4)
-    - GoogleUtilities/Environment (~> 7.0)
-    - GoogleUtilities/Logger (~> 7.0)
+    - FirebaseStorage (~> 8.1.0)
+  - FirebaseAuth (8.1.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.1.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.1.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
     - nanopb (~> 2.30908.0)
-  - FirebaseFirestore (7.11.0):
+  - FirebaseFirestore (8.1.0):
     - abseil/algorithm (= 0.20200225.0)
     - abseil/base (= 0.20200225.0)
     - abseil/memory (= 0.20200225.0)
@@ -282,15 +282,15 @@ PODS:
     - abseil/strings/strings (= 0.20200225.0)
     - abseil/time (= 0.20200225.0)
     - abseil/types (= 0.20200225.0)
-    - FirebaseCore (~> 7.0)
+    - FirebaseCore (~> 8.0)
     - "gRPC-C++ (~> 1.28.0)"
     - leveldb-library (~> 1.22)
     - nanopb (~> 2.30908.0)
-  - FirebaseStorage (7.11.0):
-    - FirebaseCore (~> 7.0)
-    - GTMSessionFetcher/Core (~> 1.4)
+  - FirebaseStorage (8.1.0):
+    - FirebaseCore (~> 8.0)
+    - GTMSessionFetcher/Core (~> 1.5)
   - Freedom (2.4.1)
-  - GoogleDataTransport (8.4.0):
+  - GoogleDataTransport (9.0.1):
     - GoogleUtilities/Environment (~> 7.2)
     - nanopb (~> 2.30908.0)
     - PromisesObjC (~> 1.2)
@@ -305,20 +305,20 @@ PODS:
     - AppAuth (~> 1.2)
     - GTMAppAuth (~> 1.0)
     - GTMSessionFetcher/Core (~> 1.1)
-  - GoogleUtilities/AppDelegateSwizzler (7.3.1):
+  - GoogleUtilities/AppDelegateSwizzler (7.4.1):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (7.3.1):
+  - GoogleUtilities/Environment (7.4.1):
     - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Logger (7.3.1):
+  - GoogleUtilities/Logger (7.4.1):
     - GoogleUtilities/Environment
-  - GoogleUtilities/Network (7.3.1):
+  - GoogleUtilities/Network (7.4.1):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (7.3.1)"
-  - GoogleUtilities/Reachability (7.3.1):
+  - "GoogleUtilities/NSData+zlib (7.4.1)"
+  - GoogleUtilities/Reachability (7.4.1):
     - GoogleUtilities/Logger
   - "gRPC-C++ (1.28.2)":
     - "gRPC-C++/Implementation (= 1.28.2)"
@@ -344,7 +344,7 @@ PODS:
     - BoringSSL-GRPC (= 0.0.7)
     - gRPC-Core/Interface (= 1.28.2)
   - gRPC-Core/Interface (1.28.2)
-  - GTMAppAuth (1.2.1):
+  - GTMAppAuth (1.2.2):
     - AppAuth/Core (~> 1.4)
     - GTMSessionFetcher/Core (~> 1.5)
   - GTMSessionFetcher/Core (1.5.0)
@@ -356,7 +356,7 @@ PODS:
   - Kingfisher (6.3.0)
   - leveldb-library (1.22.1)
   - LMSideBarController (1.0.2)
-  - MessageKit (3.6.0):
+  - MessageKit (3.6.1):
     - InputBarAccessoryView (~> 5.3.1)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
@@ -390,11 +390,11 @@ PODS:
   - ProgressHUD (13.6)
   - PromisesObjC (1.2.12)
   - Reachability (3.2)
-  - Realm (10.1.4):
-    - Realm/Headers (= 10.1.4)
-  - Realm/Headers (10.1.4)
-  - RealmSwift (10.1.4):
-    - Realm (= 10.1.4)
+  - Realm (10.7.6):
+    - Realm/Headers (= 10.7.6)
+  - Realm/Headers (10.7.6)
+  - RealmSwift (10.7.6):
+    - Realm (= 10.7.6)
   - RSLoadingView (1.1.3)
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
@@ -428,7 +428,7 @@ DEPENDENCIES:
   - OneSignal (= 2.16.1)
   - ProgressHUD
   - Reachability
-  - RealmSwift (= 10.1.4)
+  - RealmSwift
   - RSLoadingView
   - SDWebImage
   - SearchTextField
@@ -504,21 +504,21 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
   FBSDKLoginKit: f1ea8026a58b52d30c9f2e6a58ca7d813619fb83
   FBSDKShareKit: 259737eab3cc807087374553abdf588b3096ba55
-  Firebase: c121feb35e4126c0b355e3313fa9b487d47319fd
-  FirebaseAuth: 5fe4585c2ed847319f0ea68bd1d82c77e49ff9a0
-  FirebaseCore: 907447d8917a4d3eb0cce2829c5a0ad21d90b432
-  FirebaseCoreDiagnostics: 68ad972f99206cef818230f3f3179d52ccfb7f8c
-  FirebaseFirestore: f495bb336b23eca23ea5d3605dce2a4cc214fde9
-  FirebaseStorage: 8542711850ca181a3931c0ed483006a7b46039e7
+  Firebase: b5956acddaaa53a6c292bec00649fadd18367344
+  FirebaseAuth: e069ff5736fe9d5dcf61f36244bb1b1ce1897d17
+  FirebaseCore: 389c4ce9a7cce4a7e25eb22326b4bee0050557b2
+  FirebaseCoreDiagnostics: 3e249cee3de5c5f9cfd6cc2a19997231286fec11
+  FirebaseFirestore: c4be8314e9fa156f44b54025f7a98ecbff6971a6
+  FirebaseStorage: 5b5958efaf84fb991568ad36f157f60c76bdcd80
   Freedom: 94c0cf1741b8b7cd7475306e30fd500f8b709c3d
-  GoogleDataTransport: cd9db2180fcecd8da1b561aea31e3e56cf834aa7
+  GoogleDataTransport: 04c3e9a480bbcaa2ec3f5d27f1cdeb6a92f20c8d
   GoogleMaps: eb03e327edfd70b06de1e6e321653f73712df7ad
   GooglePlaces: 196a9dd88580dcb3f3df46f415057703d0d2a310
   GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
-  GoogleUtilities: e1d9ed4e544fc32a93e00e721400cbc3f377200d
+  GoogleUtilities: f8a43108b38a68eebe8b3540e1f4f2d28843ce20
   "gRPC-C++": 13d8ccef97d5c3c441b7e3c529ef28ebee86fad2
   gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
-  GTMAppAuth: 5b53231ef6920f149ab84b2969cb0ab572da3077
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
   GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
   InputBarAccessoryView: 1f75d8c9f75e5e57f3ffac36ed58635a8005e0bc
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
@@ -526,7 +526,7 @@ SPEC CHECKSUMS:
   Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   LMSideBarController: f949cf59a1d8f20ba7a7acc60244327fa2de54fd
-  MessageKit: a8efaf55b021672b19ffdd5a85ce1c2f3b53058e
+  MessageKit: d153fbbbcb12f3f4045a1ba8874298924dacfb62
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   NYTPhotoViewer: 6f50ea92f265d54a350b39a7ab7a1b91ca487ff6
   OneSignal: 5f6514ec2b931306eb067acb124afbb2e49970af
@@ -536,8 +536,8 @@ SPEC CHECKSUMS:
   ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  Realm: 80f4fb2971ccb9adc27a47d0955ae8e533a7030b
-  RealmSwift: 0e566ca714edb377bba8ea0811eafcea0b93734e
+  Realm: ed860452717c8db8f4bf832b6807f7f2ce708839
+  RealmSwift: e31c4ddbcc42ac879313d656b86f9ca539f6f4f4
   RSLoadingView: c7749afdd455229643e8f34277d0695973a15b1a
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SearchTextField: 40dc3cc57def5a211f263cac263622c163bbc25a
@@ -546,6 +546,6 @@ SPEC CHECKSUMS:
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
   Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
 
-PODFILE CHECKSUM: 66b48426a0e2bff1141e900984dac95e6635a2e6
+PODFILE CHECKSUM: 566b43469cfcbadb61561662ab4c9ce3e6edc9e5
 
 COCOAPODS: 1.10.1

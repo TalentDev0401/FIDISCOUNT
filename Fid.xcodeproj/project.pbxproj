@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -287,13 +287,12 @@
 		A1E66FCE25B03E200077B397 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E66FCD25B03E200077B397 /* CardList.swift */; };
 		A1E66FD125B041C10077B397 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E66FD025B041C10077B397 /* Constants.swift */; };
 		A1F4034A25FF45C90042E72C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4034925FF45C90042E72C /* Location.swift */; };
-		C6A4F998D4BB1E7A82C835A4 /* Pods_Fid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D70AB1D7BB0CAE08FEF8887 /* Pods_Fid.framework */; };
+		D7C22ADB5839BC53848A5F77 /* Pods_Fid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B05F765DA11D4FF42CFD06 /* Pods_Fid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08B8DE2430812D84B2604976 /* Pods-Fid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fid.debug.xcconfig"; path = "Target Support Files/Pods-Fid/Pods-Fid.debug.xcconfig"; sourceTree = "<group>"; };
-		2D70AB1D7BB0CAE08FEF8887 /* Pods_Fid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C80F33FB155E3839B27FD45 /* Pods-Fid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fid.release.xcconfig"; path = "Target Support Files/Pods-Fid/Pods-Fid.release.xcconfig"; sourceTree = "<group>"; };
+		78B05F765DA11D4FF42CFD06 /* Pods_Fid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3E5740DA8F66531022C9FB /* Pods-Fid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fid.debug.xcconfig"; path = "Target Support Files/Pods-Fid/Pods-Fid.debug.xcconfig"; sourceTree = "<group>"; };
 		A10AF0A025F76E760058EFEA /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		A10AF0AA25F775000058EFEA /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		A10B1D7525BAB6B7000E920C /* CategoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableCell.swift; sourceTree = "<group>"; };
@@ -606,6 +605,7 @@
 		A1E66FCD25B03E200077B397 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		A1E66FD025B041C10077B397 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A1F4034925FF45C90042E72C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B8134136F91A041E154EA0A2 /* Pods-Fid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fid.release.xcconfig"; path = "Target Support Files/Pods-Fid/Pods-Fid.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -613,7 +613,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A4F998D4BB1E7A82C835A4 /* Pods_Fid.framework in Frameworks */,
+				D7C22ADB5839BC53848A5F77 /* Pods_Fid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,16 +623,16 @@
 		14693A89326A32108F938246 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				08B8DE2430812D84B2604976 /* Pods-Fid.debug.xcconfig */,
-				9C80F33FB155E3839B27FD45 /* Pods-Fid.release.xcconfig */,
+				9E3E5740DA8F66531022C9FB /* Pods-Fid.debug.xcconfig */,
+				B8134136F91A041E154EA0A2 /* Pods-Fid.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		8D371541668E95F5E2072589 /* Frameworks */ = {
+		8E6AEBDC6AF2D5B55C69823A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2D70AB1D7BB0CAE08FEF8887 /* Pods_Fid.framework */,
+				78B05F765DA11D4FF42CFD06 /* Pods_Fid.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1733,7 +1733,7 @@
 				A1CED9A325AF00B900DE5DEA /* Fid */,
 				A1CED9A225AF00B900DE5DEA /* Products */,
 				14693A89326A32108F938246 /* Pods */,
-				8D371541668E95F5E2072589 /* Frameworks */,
+				8E6AEBDC6AF2D5B55C69823A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1796,12 +1796,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1CED9B525AF00BA00DE5DEA /* Build configuration list for PBXNativeTarget "Fid" */;
 			buildPhases = (
-				2ABCB55A5E735A50ED90AC79 /* [CP] Check Pods Manifest.lock */,
+				AAD50B9795E28AAABD9748E2 /* [CP] Check Pods Manifest.lock */,
 				A1CED99D25AF00B900DE5DEA /* Sources */,
 				A1CED99E25AF00B900DE5DEA /* Frameworks */,
 				A1CED99F25AF00B900DE5DEA /* Resources */,
-				651EFF03D79A75439ED9A5E9 /* [CP] Embed Pods Frameworks */,
-				A97B4B78E575D1B01E92253C /* [CP] Copy Pods Resources */,
+				50C114036D31E0869B250D5A /* [CP] Embed Pods Frameworks */,
+				5899F5F6DE3D2FC94DDED1DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1916,7 +1916,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2ABCB55A5E735A50ED90AC79 /* [CP] Check Pods Manifest.lock */ = {
+		50C114036D31E0869B250D5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5899F5F6DE3D2FC94DDED1DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD50B9795E28AAABD9748E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1936,40 +1970,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		651EFF03D79A75439ED9A5E9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A97B4B78E575D1B01E92253C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fid/Pods-Fid-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2341,16 +2341,17 @@
 		};
 		A1CED9B625AF00BA00DE5DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08B8DE2430812D84B2604976 /* Pods-Fid.debug.xcconfig */;
+			baseConfigurationReference = 9E3E5740DA8F66531022C9FB /* Pods-Fid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Fid/Fid.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A7555N7G23;
 				INFOPLIST_FILE = Fid/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2358,7 +2359,7 @@
 				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roy.fid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = FID_development_profile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2366,16 +2367,17 @@
 		};
 		A1CED9B725AF00BA00DE5DEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C80F33FB155E3839B27FD45 /* Pods-Fid.release.xcconfig */;
+			baseConfigurationReference = B8134136F91A041E154EA0A2 /* Pods-Fid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Fid/Fid.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A7555N7G23;
 				INFOPLIST_FILE = Fid/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2383,7 +2385,7 @@
 				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roy.fid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = FID_development_profile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jN5-dQ-yvs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jN5-dQ-yvs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -412,7 +413,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FilterTableCell" rowHeight="60" id="tTZ-zn-ptu" customClass="FilterTableCell" customModule="Fid" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="60"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tTZ-zn-ptu" id="FmG-M3-w1c">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -824,7 +825,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SearchResultCell" rowHeight="108" id="KLq-5C-BXA" customClass="SearchResultCell" customModule="Fid" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="108"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="108"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KLq-5C-BXA" id="UPS-e1-dK2">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
@@ -1121,7 +1122,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CategoryTableCell" rowHeight="80" id="fxj-Xn-HbK" customClass="CategoryTableCell" customModule="Fid" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fxj-Xn-HbK" id="YH8-vi-RgC">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
@@ -1356,7 +1357,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="FilterTableCell" rowHeight="60" id="FIz-rA-aZe" customClass="FilterTableCell" customModule="Fid" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="60"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FIz-rA-aZe" id="e2k-yd-Y13">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -1878,7 +1879,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentTableCell" rowHeight="109" id="VVI-Db-JMk" customClass="CommentTableCell" customModule="Fid" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="109"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="109"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VVI-Db-JMk" id="bXf-EO-c0F">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="109"/>
@@ -2309,7 +2310,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="edit_card" rowHeight="60" id="UcT-r8-lq9" customClass="FilterTableCell" customModule="Fid" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="60"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UcT-r8-lq9" id="TRd-zr-cCx">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -3188,7 +3189,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="edit_card" rowHeight="60" id="BLF-be-xgm" customClass="FilterTableCell" customModule="Fid" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="414" height="60"/>
+                                                <rect key="frame" x="0.0" y="24.5" width="414" height="60"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BLF-be-xgm" id="EBp-cX-daj">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -3413,7 +3414,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="show_result" rowHeight="108" id="c2J-sA-hv0" customClass="SearchResultCell" customModule="Fid" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="108"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="108"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="c2J-sA-hv0" id="Nft-bA-esj">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
@@ -4498,7 +4499,7 @@
                                 </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RightMenuCell" id="oAc-yW-iDF" customClass="RightMenuCell" customModule="Fid" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="220" height="56"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="220" height="56"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oAc-yW-iDF" id="la7-uX-HQf">
                                             <rect key="frame" x="0.0" y="0.0" width="220" height="56"/>
@@ -4988,7 +4989,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="show_result" rowHeight="108" id="9ws-hp-0i1" customClass="SearchResultCell" customModule="Fid" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="108"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="108"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9ws-hp-0i1" id="Otl-F8-bxF">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
@@ -5153,28 +5154,11 @@
             <point key="canvasLocation" x="7367" y="-603"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="Abn-4o-dyA">
-            <size key="intrinsicContentSize" width="4" height="18.5"/>
-        </designable>
-        <designable name="EdR-WU-86d">
-            <size key="intrinsicContentSize" width="4" height="18.5"/>
-        </designable>
-        <designable name="Gb4-sf-zlb">
-            <size key="intrinsicContentSize" width="37.5" height="18"/>
-        </designable>
-        <designable name="N0G-WR-xKg">
-            <size key="intrinsicContentSize" width="4" height="18.5"/>
-        </designable>
-        <designable name="QAN-ha-X9I">
-            <size key="intrinsicContentSize" width="4" height="18.5"/>
-        </designable>
-    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="le7-P8-REk"/>
         <segue reference="QCJ-wS-zfP"/>
         <segue reference="maa-3o-wdN"/>
-        <segue reference="A4r-Mp-ioi"/>
+        <segue reference="jrF-sV-3Br"/>
         <segue reference="Y1W-C0-muN"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -5213,9 +5197,6 @@
         <image name="update_tab" width="25" height="20"/>
         <image name="userPic" width="512" height="512"/>
         <image name="welcome" width="645" height="1106"/>
-        <systemColor name="groupTableViewBackgroundColor">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '13.0'
 
 target 'Fid' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -27,17 +27,17 @@ target 'Fid' do
   pod 'FacebookLogin'
   pod 'FacebookShare'
   
-#  pod 'GooglePlacesAPI'
+  #pod 'GooglePlacesAPI'
   
   #pod 'ObjectMapper', '~> 3.3.0'
   
   
-  # Chatting  
+  # Chatting
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   pod 'OneSignal', '2.16.1'
-  pod 'RealmSwift', '=10.1.4'
-#  pod 'SinchRTC'
+  pod 'RealmSwift'
+  #pod 'SinchRTC'
   pod 'InputBarAccessoryView'
   pod 'Kingfisher'
   pod 'MessageKit'
